@@ -5,17 +5,17 @@ print("Hello,world!")
 if 5 > 2:
   print("Five is greater than two!") #output:Five is greater than two!
   
-if 5 > 2:
-print("Five is greater than two!") #output:Error
+#if 5 > 2:
+#print("Five is greater than two!") #output:Error
 
 if 5 > 2:
  print("Five is greater than two!") 
 if 5 > 2:
         print("Five is greater than two!") #outpit:Five is greater than two! Five is greater than two!
 
-if 5 > 2:
- print("Five is greater than two!")
-        print("Five is greater than two!")#output:Error
+#if 5 > 2:
+ #print("Five is greater than two!")
+        #print("Five is greater than two!")#output:Error
         
 #PYTHON COMMENTS
 #This is a comment
@@ -57,9 +57,9 @@ myVar = "John"
 MYVAR = "John"
 myvar2 = "John" #output: John(6)
 
-2myvar = "John"
-my-var = "John"
-my var = "John" #This example will produce an error in the result
+#2myvar = "John"
+#my-var = "John"
+#my var = "John" #This example will produce an error in the result
 
 x, y, z = "Orange", "Banana", "Cherry"
 print(x)
@@ -87,9 +87,9 @@ x = 5
 y = 10
 print(x + y)  #output: 15
 
-x = 5
-y = "John"
-print(x + y) #output:Error 
+#x = 5
+#y = "John"
+#print(x + y) #output:Error 
 
 x = 5
 y = "John"
@@ -137,14 +137,14 @@ print("Python is " + x) #output:Python is fantastic
 
 
 #PYTHON DATA TYPES
-Text Type:	str
-Numeric Types:	int, float, complex
-Sequence Types:	list, tuple, range
-Mapping Type:	dict
-Set Types:	set, frozenset
-Boolean Type:	bool
-Binary Types:	bytes, bytearray, memoryview
-None Type:	NoneType
+#Text Type:	str
+#Numeric Types:	int, float, complex
+#Sequence Types:	list, tuple, range
+#Mapping Type:	dict
+#Set Types:	set, frozenset
+#Boolean Type:	bool
+#Binary Types:	bytes, bytearray, memoryview
+#None Type:	NoneType 
 
 
 x = 5
