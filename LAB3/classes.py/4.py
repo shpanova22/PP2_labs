@@ -6,7 +6,7 @@ class Points:
         print(self.x, self.y)
         
     def move(self):
-        self.t=self.y
+        self.t=self.y # временная перемена t используется для хранение y 
         self.y=self.x
         self.x=self.t
         print(self.x, self.y)

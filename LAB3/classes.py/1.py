@@ -5,7 +5,7 @@ class Onstrings:
     def printString(self):
         print(self.s.upper())
 
-p1=Onstrings()
+p1=Onstrings() #создается объект класса p1
 
 p1.getString()
 p1.printString()

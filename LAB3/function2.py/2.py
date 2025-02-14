@@ -80,6 +80,6 @@ def high_imdb_movie():
     returns=[]
     for i in movies:
         if i["imdb"]>5.5:
-            returns.append(i)
+            returns.append(i["name"])
     return returns
 print(high_imdb_movie())
