@@ -1,0 +1,10 @@
+import re
+
+def camel_to_snake(text):
+    # Add an underscore before each uppercase letter (except at the beginning)
+    snake_case = re.sub(r'(?<!^)(?=[A-Z])', '_', text)
+    return snake_case
+
+# Example usage
+text = "CamelCaseText"
+print(camel_to_snake(text))  # Output: "camel_case_text"
