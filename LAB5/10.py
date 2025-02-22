@@ -5,6 +5,5 @@ def camel_to_snake(text):
     snake_case = re.sub(r'(?<!^)(?=[A-Z])', '_', text)
     return snake_case
 
-# Example usage
 text = "CamelCaseText"
-print(camel_to_snake(text))  # Output: "camel_case_text"
+print(camel_to_snake(text)) 
