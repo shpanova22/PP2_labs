@@ -9,7 +9,7 @@ def snakeToCamel(text):
     
     return camelCase
 
-# Пример использования функции
+
 snake_case_string = "hello_world_example"
 camel_case_string = snakeToCamel(snake_case_string)
 print("Snake case string:", snake_case_string)
