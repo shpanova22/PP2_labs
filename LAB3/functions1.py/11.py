@@ -4,4 +4,4 @@ def get_palindrom(word):
     else:
         print("No, it is not a palindrom" )
 word=input()
-get_palindrom(word)
+get_palindrom(word) 

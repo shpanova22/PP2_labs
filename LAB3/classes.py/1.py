@@ -8,5 +8,5 @@ class Onstrings:
 p1=Onstrings() #создается объект класса p1
 
 p1.getString()
-p1.printString()
+p1.printString() 
     
